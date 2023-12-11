@@ -1,0 +1,33 @@
+# Comandos do Prompt de Comando do Windows vs. Comandos do Terminal Linux
+
+Este documento fornece uma tabela comparativa entre alguns comandos comuns utilizados no Prompt de Comando do Windows e seus equivalentes no Terminal Linux.
+A tabela destaca as diferenças entre os sistemas operacionais, proporcionando uma referência rápida para usuários que estão migrando entre ambientes.
+
+## Tabela de Comandos
+
+| Comando do Windows            | Descrição                                      | Comando Linux                   | Descrição                                      |
+|-------------------------------|-----------------------------------------------|--------------------------------|-----------------------------------------------|
+| `cd`                          | Change Directory                              | `cd nome_da_pasta`             | Muda para o diretório especificado.            |
+| `dir`                         | Directory Listing                             | `ls`                           | Lista arquivos e pastas no diretório atual.    |
+| `copy`                        | Copy                                          | `cp origem destino`            | Copia arquivos de um local para outro.         |
+| `del`                         | Delete                                        | `rm nome_do_arquivo`           | Remove um arquivo.                            |
+| `md` ou `mkdir`               | Make Directory                                | `mkdir nome_da_pasta`          | Cria um novo diretório.                        |
+| `rd` ou `rmdir`               | Remove Directory                              | `rmdir nome_da_pasta`          | Remove um diretório vazio.                     |
+| `ren`                         | Rename                                        | `mv nome_antigo nome_novo`     | Renomeia um arquivo.                           |
+| `cls`                         | Clear Screen                                  | `clear`                        | Limpa a tela do terminal.                      |
+| `ipconfig`                    | IP Configuration                              | `ifconfig`                     | Exibe informações de configuração de IP.      |
+| `ping`                        | Ping                                          | `ping endereco_ip`             | Testa a conectividade com um endereço IP.      |
+| `tasklist`                    | Task List                                     | `ps`                           | Lista todos os processos em execução.         |
+| `taskkill`                    | Task Kill                                     | `kill PID`                     | Encerra um processo pelo ID do processo.      |
+| `systeminfo`                  | System Information                            | `uname -a`                     | Exibe informações detalhadas sobre o sistema. |
+| `chkdsk`                      | Check Disk                                    | `fsck`                         | Verifica e corrige problemas em unidades de disco. |
+| `sfc`                         | System File Checker                           | -                              | -                                             |
+| `netstat`                     | Network Statistics                            | `netstat`                      | Exibe estatísticas de rede e conexões.         |
+| `shutdown`                    | Shutdown                                      | `shutdown -h now`              | Desliga o sistema imediatamente.               |
+| `gpupdate`                    | Group Policy Update                           | `sudo apt-get update`          | Atualiza os repositórios de pacotes.           |
+
+**Observações:**
+- Alguns comandos podem não ter equivalentes exatos entre os sistemas operacionais.
+- A funcionalidade exata pode variar dependendo da distribuição Linux.
+
+Este README é uma referência básica e pode não abranger todos os cenários. Recomenda-se consultar a documentação oficial de cada sistema para informações mais detalhadas.
